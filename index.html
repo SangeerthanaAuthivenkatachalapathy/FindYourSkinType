@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Your Skin Type</title>
+  <link rel="stylesheet" href="SkinType.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  
+  <h1>Find Your Skin Type!</h1>
+
+  <div class="quiz-container" id="quiz">
+    <div class="question" id="q1">
+      <p>1. How does your skin feel 2 hours after washing?</p>
+      <div class="options">
+        <div class="option" data-value="oily">Oily</div>
+        <div class="option" data-value="dry">Dry</div>
+        <div class="option" data-value="normal">Normal</div>
+      </div>
+    </div>
+
+    <div class="question" id="q2">
+      <p>2. How often do you notice shine on your face?</p>
+      <div class="options">
+        <div class="option" data-value="oily">Frequently</div>
+        <div class="option" data-value="combination">Sometimes</div>
+        <div class="option" data-value="dry">Rarely</div>
+      </div>
+    </div>
+
+    <div class="question" id="q3">
+      <p>3. Do you experience dry patches?</p>
+      <div class="options">
+        <div class="option" data-value="dry">Yes</div>
+        <div class="option" data-value="oily">No</div>
+      </div>
+    </div>
+
+    <div class="question" id="q4">
+      <p>4. Are your pores large and visible?</p>
+      <div class="options">
+        <div class="option" data-value="oily">Yes</div>
+        <div class="option" data-value="normal">No</div>
+      </div>
+    </div>
+
+    <div class="question" id="q5">
+      <p>5. How often do you get acne or pimples?</p>
+      <div class="options">
+        <div class="option" data-value="oily">Frequently</div>
+        <div class="option" data-value="normal">Rarely</div>
+        <div class="option" data-value="dry">Never</div>
+      </div>
+    </div>
+
+    <button id="submitBtn">Find My Skin Type</button>
+    <button id="resetBtn" style="display:none;">Try Again</button>
+  </div>
+
+  <div class="result" id="result"></div>
+
+  <script src="./SkinType.Js"></script>
+</body>
+</html>
